@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ton-utilisateur/ton-repo.git'
+                git 'https://github.com/kwameni/examen_secops.git'
             }
         }
 
